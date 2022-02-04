@@ -1,6 +1,8 @@
 builds:
   - binary: mackerel-plugin-bigquery-query-result-importer
     goos:
+      - windows
+      - darwin
       - linux
     goarch:
       - amd64
