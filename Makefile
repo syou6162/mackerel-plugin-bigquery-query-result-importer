@@ -1,5 +1,5 @@
 setup:
-	go get \
+	go install \
 		github.com/laher/goxc \
 		github.com/tcnksm/ghr \
 		golang.org/x/lint/golint
