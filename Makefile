@@ -1,13 +1,10 @@
 setup:
-	go install \
-		github.com/laher/goxc \
-		github.com/tcnksm/ghr \
-		golang.org/x/lint/golint
+	go install github.com/laher/goxc@latest
+	go install github.com/tcnksm/ghr@latest
 	go get -d -t ./...
 
 lint: setup
 	go vet ./...
-	golint -set_exit_status ./...
 
 build:
 	go build
