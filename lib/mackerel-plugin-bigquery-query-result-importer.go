@@ -61,7 +61,7 @@ func (p BigQueryQueryResultImporterPlugin) FetchMetrics() (map[string]interface{
 		if err != nil {
 			return nil, err
 		}
-		k := fmt.Sprintf("bigquery_query_result_importer.%s.%s.value", p.GraphName, m.Label)
+		k := fmt.Sprintf("bigquery_query_result_importer.%s.%s.value", p.GraphName, strings.ReplaceAll(m.Label, " ", "_"))
 		stat[k] = m.Value
 	}
 	return stat, nil
