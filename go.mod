@@ -5,7 +5,7 @@ go 1.19
 require (
 	cloud.google.com/go/bigquery v1.37.0
 	github.com/mackerelio/go-mackerel-plugin-helper v0.1.2
-	google.golang.org/api v0.91.0
+	google.golang.org/api v0.93.0
 )
 
 require (
