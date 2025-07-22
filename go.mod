@@ -6,7 +6,7 @@ toolchain go1.24.5
 
 require (
 	cloud.google.com/go/bigquery v1.69.0
-	github.com/mackerelio/go-mackerel-plugin-helper v0.1.3
+	github.com/mackerelio/go-mackerel-plugin-helper v0.1.4
 	google.golang.org/api v0.242.0
 )
 
