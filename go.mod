@@ -2,7 +2,7 @@ module github.com/syou6162/mackerel-plugin-bigquery-query-result-importer
 
 go 1.24.0
 
-toolchain go1.25.1
+toolchain go1.25.3
 
 require (
 	cloud.google.com/go/bigquery v1.70.0
